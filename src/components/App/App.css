@@ -6,17 +6,16 @@
 }
 
 .section, .form-section {
-  /* display: flex; */
-  /* flex-direction: column; */
   margin-top: 100px;
 }
 
 .form-section {
-  width: 40%;
+  width: 30%;
+  position: fixed;
 }
 
 .section {
-  width: 60%;
+  margin-left: 35%;
 }
 
 .App-logo {
