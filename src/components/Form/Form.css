@@ -1,0 +1,17 @@
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5%;
+}
+
+.dropdown {
+  margin-right: 5%;
+  width: 150px;
+  height: 30px;
+}
+
+.search {
+  margin-right: 5%;
+  width: 300px;
+}

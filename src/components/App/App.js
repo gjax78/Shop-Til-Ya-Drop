@@ -5,6 +5,7 @@ import data from '../../util/data';
 import Items from '../Items/Items'
 import Header from '../Header/Header';
 import Form from '../Form/Form';
+import Form2 from '../Form2/Form2'
 
 const App = () => {
   const [items, setItems] = useState([])
@@ -25,8 +26,13 @@ const App = () => {
   return (
     <main className="App">
       <Header />
-      <Form filter={filter} setFilter={setFilter}/>
-      <Items items={filteredItems}/>
+      <div className='form-section'>
+        <Form2 />
+      </div>
+      <div className='section'>
+        <Form filter={filter} setFilter={setFilter}/>
+        <Items items={filteredItems}/>
+      </div>
     </main>
   )
 }

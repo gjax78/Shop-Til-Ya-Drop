@@ -1,0 +1,21 @@
+/* .input-form {
+  display: flex;
+  flex-direction: column;
+} */
+
+.name-input, .address-input, .age-input, .email-input {
+  display: flex;
+  margin-left: 10%;
+}
+
+label {
+  display: flex;
+  margin-left: 10%;
+  margin-top: 10%
+}
+
+.submit {
+  justify-content: flex-end;
+  margin-right: 37%;
+  margin-top: 10%;
+}
