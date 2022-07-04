@@ -1,5 +1,26 @@
 .App {
   text-align: center;
+  background-color: #FCF7ED;
+  color: #084C3F;
+  display: flex;
+  font-family: 'EB Garamond', serif;
+}
+
+button, ::placeholder, .dropdown {
+  font-family: 'EB Garamond', serif;
+}
+
+.section, .form-section {
+  margin-top: 100px;
+}
+
+.form-section {
+  width: 30%;
+  position: fixed;
+}
+
+.section {
+  margin-left: 35%;
 }
 
 .App-logo {

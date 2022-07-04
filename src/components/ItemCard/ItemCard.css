@@ -1,4 +1,26 @@
+.item-card {
+  width: 500px;
+}
+
 .image {
   height: 200px;
   width: 200px;
+}
+
+.add-to-cart {
+  display: inline-block;
+  padding: 1em 1.8125em;
+  border-radius: 4px;
+  font-family: ShopifySans, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 1.133;
+  cursor: pointer;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+  background-color: #008060;
+  color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  font-family: 'EB Garamond', serif;
 }
