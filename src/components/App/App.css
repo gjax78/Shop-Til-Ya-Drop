@@ -23,6 +23,12 @@ button, ::placeholder, .dropdown {
   margin-left: 35%;
 }
 
+.submissions-section {
+  position: relative;
+  top: 6.5%;
+  border: 1px solid red;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
