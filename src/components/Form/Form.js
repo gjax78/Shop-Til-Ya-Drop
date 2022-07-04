@@ -30,7 +30,7 @@ const Form = ({filter, setFilter}) => {
         onChange={event => handleChange(event)}
       />
 
-      <button onClick={clearForm}>Reset Form</button>
+      <button onClick={clearForm} className='reset-form'>Reset Form</button>
     </form>
   )
 }
